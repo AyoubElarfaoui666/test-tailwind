@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@theme {
+    --color-primary-100  : #fff;
+    --breakpoint-xs : 480px ;
+}
+
+body :where(header,main,aside,footer){
+    @apply bg-sky-500 flex justify-center items-center ;
+}
+
+@layer base {
+    *{
+        color: white;
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="w-screen pt-2.5 px-[5%] md:px-[10%] 2xl:px-[4%] h-screen [background-image:url('./images/Image.png')] bg-center bg-cover">
+    <nav class="flex items-center lg:flex-row flex-col pt-5 justify-between w-full mb-15 gap-3 lg:gap-0">
+        <a href="#">
+            <img class="w-60" src="./images/logo.png" alt="logo">
+        </a>
+        <ul class="text-white font-medium [&>li>a:hover]:text-yellow-300 text-2xl flex items-center gap-10">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#">
+            <img class="w-10" src="./images/cart.png" alt="shop icon">
+        </a>
+    </nav>
+    <section class="flex justify-between items-center flex-col lg:flex-row">
+        <div class="lg:w-[45%] w-full">
+            <h1 class="lg:text-7xl text-5xl text-center lg:text-left  font-bold leading-12 lg:leading-25  mb-2">Groceries <br> delivery in <span class="font-normal">15 mins</span>
+            </h1>
+            <p class="text-xl text-center lg:text-left tracking-wide mb-10">Gracify offer a wide range of products inclusing fresh products,meats,dairy,baked goods and non-perishable items</p>
+            <div class="text-xl flex gap-4 lg:justify-start justify-center">
+                <button class="px-5 py-2.5 cursor-pointer rounded-full text-black bg-yellow-300 border-2 border-yellow-300 hover:bg-transparent hover:text-yellow-300" >Order Now</button>
+                <button class="cursor-pointer px-5 py-2.5 rounded-full hover:bg-white hover:text-black [&:hover>i]:!text-black" >Download App <i class="fa-solid fa-location-arrow "></i></button>
+            </div>
+        </div>
+        <div class="lg:w-[45%] w-full">
+            <img src="./images/grocery-image.png" alt="persone image ">
+        </div>
+    </section>
+</body>
+</html>
